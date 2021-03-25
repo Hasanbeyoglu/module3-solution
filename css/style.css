@@ -1,0 +1,23 @@
+* {font-family: 'Rubik', sans-serif;}
+body {background-color: #030303;}
+header, header .navbar {min-height: 65px; }
+.navbar-header {padding: 10px 15px;}
+a.navbar-brand {padding:5px 15px;}
+.navbar-header a, .navbar-header a:hover  {color: #000000;text-decoration: none;}
+.navbar-header h1 {padding: 0; margin:0;}
+.menu {background-color: #999;padding: 10px 15px;}
+.menu h4 {text-align: center;}
+header .navbar {background-color: #999;}
+button.navbar-toggle {border: 1px solid #000;} 
+button.navbar-toggle:focus {border: 1px solid #dcdcdc;}
+button.navbar-toggle:focus .icon-bar {background-color: #dcdcdc;}
+.navbar-toggle .icon-bar {background-color: #000;}
+ul.navbar-nav {background: #fff; margin-bottom: 0px;}
+ul.navbar-nav li {border-bottom: 1px solid #000;}
+ul.navbar-nav li a {color: #000;}
+@media (min-width: 768px) {
+.col-sm-12 {margin-top: 30px;}
+}
+@media (max-width: 768px) {}
+.col-xs-12 {margin-top: 30px;}
+}
